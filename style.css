@@ -1,0 +1,229 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.header-main-parents {
+    background-color: antiquewhite;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+}
+
+.header-container {
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header-container h3 {
+    font-size: x-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header-container a {
+    text-decoration: none;
+    color: rgb(38, 35, 35);
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 20px;
+}
+
+.header-container a:hover {
+    text-decoration: none;
+    color: rgb(79, 110, 14);
+    background-color: aliceblue;
+    border-radius: 2px;
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 20px;
+}
+
+.header-children {
+    margin-top: 70px;
+}
+
+.header-children h2 {
+    text-align: center;
+    line-height: 5px;
+    font-size: 60px;
+}
+
+.header-paragraph p {
+    text-align: center;
+}
+
+.explore-button {
+    text-align: center;
+}
+
+.explore-button button {
+    border: none;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 5px;
+    background-color: coral;
+}
+
+.explore-button button:hover {
+    border: none;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 5px;
+    background-color: cornflowerblue;
+    color: aliceblue;
+}
+
+.banner-image {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.banner-image img {
+    width: 1100px;
+}
+
+/* team work demo start */
+.team-work-demo {
+    margin: 60px 50px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.work-demo-photo {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+}
+
+.work-demo-paragraph {
+    margin: 150px 0px;
+    margin-left: 40px;
+}
+
+.work-demo-paragraph h3 {
+    color: rgb(171, 193, 193);
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.work-demo-paragraph .of-our {
+    font-weight: 800;
+    color: black;
+}
+
+.work-demo-paragraph .features {
+    font-weight: 800;
+    color: orange;
+}
+
+.explore-more-button-two {
+    border: none;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 5px;
+    background-color: coral;
+}
+
+.explore-more-button-two:hover{
+    border: none;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 5px;
+    background-color: rgb(182, 204, 245);
+    color: rgb(32, 37, 41);
+}
+
+.features-love-enjoy{
+    margin: 60px 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.details-title-and-para h2{
+    font-size: 50px;
+    border-left: 5px solid rgb(245, 114, 114);
+}
+
+.features-item{
+    margin-right: 20px;
+    box-shadow: 2px 5px 5px 2px rgb(213, 207, 207);
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.features-item h3{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.some-facts{
+    margin: 50px;
+}
+
+.some-facts h2{
+    font-size: 35px;
+}
+
+.some-icon-parents{
+    margin: 50px 150px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+    margin-bottom: 80px;
+}
+
+.some-icon{
+    border: 1px solid goldenrod;
+    border-radius: 10px;
+    padding: 5px;
+    text-align: center;
+}
+.some-icon:hover{
+    border: 1px solid goldenrod;
+    border-radius: 10px;
+    background-color: rgb(214, 250, 238);
+    padding: 5px;
+    text-align: center;
+}
+
+.some-icon h2{
+    font-size: xx-large;
+}
+
+.some-icon p{
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.sponsor-container{
+    text-align: center;
+}
+
+.sponsor-detail h2{
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.sponsor-company-photo img{
+    margin-left: 60px;
+    color: white;
+}
+
+.footer-container{
+    margin-top: 100px;
+    text-align: center;
+}
+
+.footer-children p{
+    background-color: antiquewhite;
+    font-size: 20px;
+    padding: 25px;
+}
