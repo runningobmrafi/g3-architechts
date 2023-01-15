@@ -85,7 +85,7 @@ body {
 }
 
 .banner-image img {
-    width: 1100px;
+    width: 800px;
 }
 
 /* team work demo start */
@@ -131,7 +131,7 @@ body {
     background-color: coral;
 }
 
-.explore-more-button-two:hover{
+.explore-more-button-two:hover {
     border: none;
     padding: 10px;
     font-size: 20px;
@@ -141,38 +141,51 @@ body {
     color: rgb(32, 37, 41);
 }
 
-.features-love-enjoy{
-    margin: 60px 20px;
+/* features and love enjoy  */
+
+.features-love-enjoy {
+    margin: 60px 0px 60px 100px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 }
 
-.details-title-and-para h2{
+
+.details-title-and-para h2 {
     font-size: 50px;
     border-left: 5px solid rgb(245, 114, 114);
 }
 
-.features-item{
-    margin-right: 20px;
+.features-item {
+    margin-right: 50px;
     box-shadow: 2px 5px 5px 2px rgb(213, 207, 207);
     border-radius: 5px;
     padding: 5px;
 }
 
-.features-item h3{
+.features-item h3 {
     font-size: 25px;
     font-weight: 600;
+    color: coral;
 }
 
-.some-facts{
+.features-photo img {
+    width: 500px;
+    height: 100%;
+}
+
+.some-facts {
     margin: 50px;
 }
 
-.some-facts h2{
+.some-facts-details {
+    margin-left: 100px;
+}
+
+.some-facts h2 {
     font-size: 35px;
 }
 
-.some-icon-parents{
+.some-icon-parents {
     margin: 50px 150px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -180,50 +193,252 @@ body {
     margin-bottom: 80px;
 }
 
-.some-icon{
+.some-icon {
     border: 1px solid goldenrod;
     border-radius: 10px;
-    padding: 5px;
+    padding: 0px;
     text-align: center;
 }
-.some-icon:hover{
+
+.some-icon:hover {
     border: 1px solid goldenrod;
     border-radius: 10px;
     background-color: rgb(214, 250, 238);
-    padding: 5px;
     text-align: center;
 }
 
-.some-icon h2{
-    font-size: xx-large;
+.start-container {
+    margin: 50px 100px 70px;
+    display: flex;
 }
 
-.some-icon p{
-    font-size: 25px;
-    font-weight: 800;
+.start-image img {
+    margin-right: 30px;
 }
 
-.sponsor-container{
+.start-details h1 {
+    font-size: 50px;
+    margin-bottom: 5px;
+}
+
+.architecture-span {
+    color: rgb(250, 151, 30);
+}
+
+.start-details button {
+    border: none;
+    border-radius: 4px;
+    padding: 6px;
+    background-color: rgb(190, 136, 70);
+    font-weight: 600;
+    color: azure;
+}
+
+.start-details button:hover {
+    border: none;
+    border-radius: 4px;
+    padding: 6px;
+    background-color: rgb(140, 190, 70);
+    font-weight: 600;
+    color: rgb(231, 231, 231);
+}
+
+
+.sponsor-container {
     text-align: center;
 }
 
-.sponsor-detail h2{
+.sponsor-detail h2 {
     font-size: 50px;
     margin-bottom: 10px;
 }
 
-.sponsor-company-photo img{
+.sponsor-company-photo img {
+    margin-top: 50px;
     margin-left: 60px;
     color: white;
 }
 
-.footer-container{
+.footer-container {
     margin-top: 100px;
     text-align: center;
 }
 
-.footer-children p{
+.footer-children p {
     background-color: antiquewhite;
     font-size: 20px;
     padding: 25px;
+}
+
+/* responsive style start here  */
+
+@media screen and (min-width: 350px) and (max-width: 1100px) {
+    .header-main-parents {
+        background-color: rgb(241, 255, 172);
+        margin: 0;
+        padding: 0;
+        height: 60vh;
+    }
+    .header-container {
+        height: 50px;
+        display: flex;
+        justify-content: left;
+        align-items: center;
+    }
+
+    .header-container a{
+        display: none;
+    }
+
+    .header-children h2 {
+        text-align: left;
+        line-height: 5px;
+        font-size: 17px;
+    }
+
+    .header-paragraph p {
+        text-align: left;
+        /* margin-left: 80px; */
+        margin-right: 75px;
+        font-size: 10px;
+    }
+
+    .explore-button {
+        text-align: left;
+        /* margin-left: 80px; */
+    }
+    
+    .explore-button button {
+        border: none;
+        padding: 5px;
+        font-size: 10px;
+        font-weight: 700;
+        border-radius: 3px;
+        background-color: coral;
+    }
+    
+    .explore-button button:hover {
+        border: none;
+        padding: 10px;
+        font-size: 20px;
+        font-weight: 700;
+        border-radius: 5px;
+        background-color: cornflowerblue;
+        color: aliceblue;
+    }
+
+    .banner-image {
+        text-align: left;
+        margin-top: 40px;
+    }
+    
+    .banner-image img {
+        width: 200px;
+        margin-bottom: 0;
+    }
+
+    .team-work-demo {
+        text-align: left;
+        margin:0;
+        margin-top: 0;
+        margin-left: 5px;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .work-demo-photo {
+        display: flex;
+        flex-direction: column;
+    }
+    .work-demo-photo img{
+        width: 190px;
+    }
+
+    .work-demo-paragraph {
+        margin: 0px;
+    }
+
+
+    .work-demo-paragraph h3 {
+        color: rgb(171, 193, 193);
+        font-size: 15px;
+    }
+    
+    .work-demo-paragraph .of-our {
+        font-weight: 800;
+        color: black;
+    }
+    
+    .work-demo-paragraph .features {
+        font-weight: 800;
+        color: orange;
+    }
+
+    .work-demo-paragraph p{
+        font-size: 10px;
+        margin-right: 70px;
+    }
+    
+    .explore-more-button-two {
+        border: none;
+        padding: 5px;
+        font-size: 10px;
+        font-weight: 700;
+        border-radius: 3px;
+        background-color: coral;
+        margin-bottom: 10px;
+    }
+    
+    .explore-more-button-two:hover {
+        border: none;
+        padding: 5px;
+        font-size: 10px;
+        font-weight: 700;
+        border-radius: 3px;
+        background-color: rgb(182, 204, 245);
+        color: rgb(32, 37, 41);
+    }
+
+    .fetures-details-container{
+        width: 200px;
+    }
+
+    .features-love-enjoy {
+        margin: 0;
+        margin-left: 2px;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    
+    .details-title-and-para h2 {
+        font-size: 20px;
+        padding-left: 10px;
+        border-left: 3px solid rgb(245, 114, 114);
+    }
+
+    /* .details-title-and-para p{
+        text-align:justify;
+        margin-right: 50px;
+    } */
+
+    .features-item-container{
+        width: 245px;
+        margin-bottom: 20px;
+    }
+    
+    .features-item {
+        box-shadow: 2px 10px 10px 2px rgb(174, 170, 170);
+        border-radius: 5px;
+        padding: 5px;
+
+    }
+    
+    .features-item h3 {
+        font-size: 20px;
+        font-weight: 600;
+        color: coral;
+    }
+    
+    .features-photo img {
+        width: 200px;
+    }
 }
