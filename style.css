@@ -340,7 +340,6 @@ body {
     .banner-image img {
         width: 100%;
         margin-bottom: 0;
-
     }
 
     .team-work-demo {
@@ -514,7 +513,7 @@ body {
 
     .sponsor-container {
         text-align: center;
-        width: 200px;
+        width: 100%;
     }
 
     .sponsor-detail h2 {
@@ -535,13 +534,15 @@ body {
     }
 
     .footer-container {
-        width: 200px;
+        text-align: center;
+        width: 100%;
         margin-top: 100px;
         text-align: left;
     }
 
     .footer-children p {
-        font-size: 5px;
+        font-size: 10px;
         padding: 15px;
+        text-align: center;
     }
 }
